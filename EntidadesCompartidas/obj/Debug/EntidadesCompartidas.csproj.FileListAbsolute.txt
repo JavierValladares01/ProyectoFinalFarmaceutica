@@ -1,0 +1,6 @@
+D:\Desktop\Mis archivos\ProyectoFinal\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+D:\Desktop\Mis archivos\ProyectoFinal\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+D:\Desktop\Mis archivos\ProyectoFinal\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.csprojAssemblyReference.cache
+D:\Desktop\Mis archivos\ProyectoFinal\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.csproj.CoreCompileInputs.cache
+D:\Desktop\Mis archivos\ProyectoFinal\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+D:\Desktop\Mis archivos\ProyectoFinal\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb

@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MPEmpleado.master.cs" Inherits="MPEmpleado" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            text-align: center;
+            width: 384px;
+        }
+        .auto-style4 {
+            width: 288px;
+        }
+        .nuevoEstilo1 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: #800080;
+        }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style4">
+                    <asp:Menu ID="Menu1" runat="server" Font-Names="Verdana" Font-Size="Medium" OnMenuItemClick="Menu1_MenuItemClick">
+                        <Items>
+                            <asp:MenuItem Text="Mantenimiento Farmacéutica" Value="Mantenimiento Farmacéutica" NavigateUrl="~/ABMFarmaceutica.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Mantenimiento Medicamento" Value="Mantenimiento Medicamento" NavigateUrl="~/ABMMedicamento.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Mantenimiento Empleado" Value="Mantenimiento Empleado" NavigateUrl="~/ABMEmpleado.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Cambiar estado de pedido" Value="Cambiar estado de pedido" NavigateUrl="~/CambioEstadoPedido.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Listado de medicamentos y pedidos" Value="Listado de medicamentos y pedidos" NavigateUrl="~/ListadoMedicamentosYPedidos.aspx"></asp:MenuItem>
+                        </Items>
+                    </asp:Menu>
+                </td>
+                <td class="auto-style2">
+                    &nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            <p>
+                &nbsp;</p>
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

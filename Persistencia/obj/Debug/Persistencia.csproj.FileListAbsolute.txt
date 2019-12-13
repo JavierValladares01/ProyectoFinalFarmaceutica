@@ -1,0 +1,9 @@
+D:\Desktop\Mis archivos\ProyectoFinal\Persistencia\bin\Debug\Persistencia.dll
+D:\Desktop\Mis archivos\ProyectoFinal\Persistencia\bin\Debug\Persistencia.pdb
+D:\Desktop\Mis archivos\ProyectoFinal\Persistencia\bin\Debug\EntidadesCompartidas.dll
+D:\Desktop\Mis archivos\ProyectoFinal\Persistencia\bin\Debug\EntidadesCompartidas.pdb
+D:\Desktop\Mis archivos\ProyectoFinal\Persistencia\obj\Debug\Persistencia.csprojAssemblyReference.cache
+D:\Desktop\Mis archivos\ProyectoFinal\Persistencia\obj\Debug\Persistencia.csproj.CoreCompileInputs.cache
+D:\Desktop\Mis archivos\ProyectoFinal\Persistencia\obj\Debug\Persistencia.csproj.CopyComplete
+D:\Desktop\Mis archivos\ProyectoFinal\Persistencia\obj\Debug\Persistencia.dll
+D:\Desktop\Mis archivos\ProyectoFinal\Persistencia\obj\Debug\Persistencia.pdb

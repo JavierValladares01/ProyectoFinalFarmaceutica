@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MPCliente.master.cs" Inherits="MPCliente" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style3 {
+            height: 23px;
+            width: 277px;
+            font-size: xx-large;
+        }
+        .auto-style5 {
+            height: 23px;
+            width: 277px;
+            font-size: x-large;
+            text-align: center;
+        }
+        .auto-style7 {
+            width: 387px;
+        }
+    </style>
+</head>
+<body style="height: 123px">
+    <form id="form1" runat="server">
+    <div>
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style3">
+                    <asp:Menu ID="Menu1" runat="server" Font-Names="Verdana" Font-Size="Medium">
+                        <Items>
+                            <asp:MenuItem Text="Realizar pedido  " Value="Realizar pedido " NavigateUrl="~/RealizarPedido.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Listado/Eliminacion de pedidos" Value="Listado/Eliminacion de pedidos" NavigateUrl="~/ListadoPedidosGeneradosEliminacionPedido.aspx"></asp:MenuItem>
+                        </Items>
+                    </asp:Menu>
+                </td>
+                <td class="auto-style5">
+                    &nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
+            </tr>
+        </table>
+        <br />
+        <br />
+    </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
